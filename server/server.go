@@ -2,7 +2,7 @@ package server
 
 import (
 	"github.com/gorilla/mux"
-	"gonef/internal"
+	"gooner/internal"
 	"log"
 	"net/http"
 )

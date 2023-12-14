@@ -1,7 +1,7 @@
 package main
 
 import (
-	"gonef/server"
+	"gooner/server"
 )
 
 func main() {

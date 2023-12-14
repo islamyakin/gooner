@@ -1,4 +1,4 @@
-module gonef
+module gooner
 
 go 1.21
 
