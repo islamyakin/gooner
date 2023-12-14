@@ -27,3 +27,14 @@ C
 internal/landing.go,6/1/61978333301f68ac3ad8279117da35aca4e52452
 I
 internal/logscontainer.go,5/a/5a7bc75b4f49b019ce26a52a9521deafc75acff9
+:
+
+Dockerfile,6/6/6651ddff6eb82c840ced7c1dddee15c6e1913dd4
+D
+server/.dockerignore,6/2/624e8a3cbf721ea428fcf90fd6a13169c6003057
+=
+.dockerignore,0/5/05a721ebe3ba0754116825ed1359ff1785f4bbac
+9
+	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+8
+Makefile,8/3/836efb6e25a091dcb4ff8e1dbb2f0be6a5cbf14c
