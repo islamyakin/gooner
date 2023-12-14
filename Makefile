@@ -13,7 +13,7 @@ build:
 	go build -o $(APP_NAME) .
 
 # Perintah untuk membangun image Docker
-build-docker: build
+build-docker:
 	@echo "Building Docker image..."
 	docker build -t $(DOCKER_IMAGE) .
 
