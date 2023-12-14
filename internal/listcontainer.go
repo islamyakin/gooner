@@ -11,6 +11,7 @@ import (
 	"log"
 	"net/http"
 	"strconv"
+	"strings"
 )
 
 func ListRunningContainers(w http.ResponseWriter, _ *http.Request) {
@@ -42,7 +43,7 @@ func ListRunningContainers(w http.ResponseWriter, _ *http.Request) {
 	for _, lisContainer := range containers {
 		containerInfo := models.ContainerInfo{
 			ContainerID: lisContainer.ID,
-			Name:        lisContainer.Names[0],
+			Name:        strings.TrimPrefix(lisContainer.Names[0], "/"),
 			State:       lisContainer.State,
 			Status:      lisContainer.Status,
 		}

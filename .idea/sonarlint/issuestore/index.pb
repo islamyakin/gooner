@@ -23,3 +23,7 @@ I
 server/server.go,2/b/2bfd4afce737f8dc3bb3ba69c068895274dac4e5
 B
 middleware/auth.go,8/e/8e5b11254bface094fbbd96c384b646999c2e4cb
+C
+internal/landing.go,6/1/61978333301f68ac3ad8279117da35aca4e52452
+I
+internal/logscontainer.go,5/a/5a7bc75b4f49b019ce26a52a9521deafc75acff9
