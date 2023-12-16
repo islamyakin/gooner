@@ -7,7 +7,7 @@ import (
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/api/types/filters"
 	"github.com/docker/docker/client"
-	"gooner/models"
+	"github.com/islamyakin/gooner/models"
 	"log"
 	"net/http"
 	"strconv"

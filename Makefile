@@ -20,13 +20,14 @@ build-docker:
 # Perintah untuk menjalankan kontainer Docker
 run: build-docker
 	@echo "Running Docker container..."
-	docker run -d -p 9090:9090 -v /var/run/docker.sock:/var/run/docker.sock $(DOCKER_IMAGE)
+	docker run -d --name gooner -p 9090:9090 -v /var/run/docker.sock:/var/run/docker.sock $(DOCKER_IMAGE)
 
 # Membersihkan file binary dan image Docker
 clean:
 	@echo "Cleaning up..."
 	rm -f $(APP_NAME)
 	docker rmi -f $(DOCKER_IMAGE)
+	docker rm -f gooner
 
 # Menjalankan make build dan make run
 all: build run

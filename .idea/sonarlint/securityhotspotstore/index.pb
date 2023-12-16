@@ -15,14 +15,8 @@ G
 models/containerinfo.go,c/1/c1d5d5b4e5d4ad404e32410a6e3ef6a850dc946b
 I
 internal/listcontainer.go,8/6/8676f5f2991c5572218053ac62fe4c62a3f0813b
-9
-	server.go,b/8/b849778bcbffdb9a4831afd558641a84cef1d38c
-;
-cmd/main.go,9/3/93310a20c22640d80343161f98be28beb14eb4e9
 @
 server/server.go,2/b/2bfd4afce737f8dc3bb3ba69c068895274dac4e5
-B
-middleware/auth.go,8/e/8e5b11254bface094fbbd96c384b646999c2e4cb
 C
 internal/landing.go,6/1/61978333301f68ac3ad8279117da35aca4e52452
 I
@@ -30,8 +24,6 @@ I
 :
 
 Dockerfile,6/6/6651ddff6eb82c840ced7c1dddee15c6e1913dd4
-D
-server/.dockerignore,6/2/624e8a3cbf721ea428fcf90fd6a13169c6003057
 =
 .dockerignore,0/5/05a721ebe3ba0754116825ed1359ff1785f4bbac
 9

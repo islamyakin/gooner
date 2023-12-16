@@ -1,7 +1,7 @@
 package main
 
 import (
-	"gooner/server"
+	"github.com/islamyakin/gooner/server"
 )
 
 func main() {
